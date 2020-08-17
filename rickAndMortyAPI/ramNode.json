@@ -1,1 +1,165 @@
-{}
+{
+  "name": "Pilot",
+  "air_date": "December 2, 2013",
+  "characters": [
+    {
+      "name": "Rick Sanchez",
+      "species": "Human",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Morty Smith",
+      "species": "Human",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Bepisian",
+      "species": "Alien",
+      "gender": "unknown",
+      "origin": {
+        "name": "Bepis 9",
+        "dimension": "unknown"
+      }
+    },
+    {
+      "name": "Beth Smith",
+      "species": "Human",
+      "gender": "Female",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Canklanker Thom",
+      "species": "Alien",
+      "gender": "Male",
+      "origin": {
+        "name": "Gromflom Prime",
+        "dimension": "Replacement Dimension"
+      }
+    },
+    {
+      "name": "Davin",
+      "species": "Human",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Frank Palicky",
+      "species": "Human",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Glenn",
+      "species": "Alien",
+      "gender": "Male",
+      "origin": "unknown"
+    },
+    {
+      "name": "Hookah Alien",
+      "species": "Alien",
+      "gender": "unknown",
+      "origin": "unknown"
+    },
+    {
+      "name": "Jerry Smith",
+      "species": "Human",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Jessica",
+      "species": "Cronenberg",
+      "gender": "Female",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Jessica's Friend",
+      "species": "Human",
+      "gender": "Female",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Mr. Goldenfold",
+      "species": "Cronenberg",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Mrs. Sanchez",
+      "species": "Human",
+      "gender": "Female",
+      "origin": "unknown"
+    },
+    {
+      "name": "Principal Vagina",
+      "species": "Cronenberg",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Summer Smith",
+      "species": "Human",
+      "gender": "Female",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Davin",
+      "species": "Cronenberg",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "dimension": "Dimension C-137"
+      }
+    },
+    {
+      "name": "Greebybobe",
+      "species": "Alien",
+      "gender": "unknown",
+      "origin": {
+        "name": "Girvonesk",
+        "dimension": "unknown"
+      }
+    },
+    {
+      "name": "Pripudlian",
+      "species": "Alien",
+      "gender": "unknown",
+      "origin": "unknown"
+    }
+  ]
+}
