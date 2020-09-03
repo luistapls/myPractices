@@ -1,0 +1,21 @@
+{
+  "name": "apicalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Alberto López Ampíez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0"
+  }
+}
