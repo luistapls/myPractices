@@ -34,7 +34,6 @@ app.use('/api/calculator/:value1/:operator/:value2', (req, res, next) => {
 });
 
 app.get('/api/calculator/:value1/:operator/:value2', (req, res) => {
-  res.status(200);
   const { operator } = req.params;
   const value1 = Number(req.params.value1);
   const value2 = Number(req.params.value2);
