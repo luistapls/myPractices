@@ -1,12 +1,13 @@
 {
-  "name": "apicalculator",
+  "name": "express",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "DEBUG=app:* nodemon app",
+    "start": "NODE_ENV=production node app"
   },
-  "author": "Luis Alberto López Ampíez",
+  "author": "Luis Alberto López Ampíez Y David Lara",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.8.1",
@@ -14,7 +15,10 @@
     "eslint-plugin-import": "^2.22.0"
   },
   "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "helmet": "^4.1.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.0"
   }
