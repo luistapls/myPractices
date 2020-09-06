@@ -1,5 +1,5 @@
 /* eslint-disable */
-const { operacion } = require("./helper");
+const { operacion } = require('./helper');
 
 const operaciones = (firstValue, secondValue, mathematic) => {
   const value1 = Number(firstValue);

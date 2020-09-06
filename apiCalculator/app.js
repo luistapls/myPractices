@@ -2,11 +2,9 @@
 const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
-
-const { notFoundHandlrer } = require('./utils/middleware/errorHandlers');
-
 const calc = require('./routes/utils/calculadora');
-const poke = require('./routes/utils/Pokemon');
+const poke = require('./routes/Pokemon/index');
+const { notFoundHandlrer } = require('./utils/middleware/errorHandlers');
 
 const app = express();
 
