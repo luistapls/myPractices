@@ -15,14 +15,9 @@ const { powerfulPoke } = require('../../../services/calculadora/powerfulPoke');
 const calculadora = (app) => {
   const router = express.Router();
   app.use('/api/calculadora', router);
-
   // Pokemon
-  router.get('/pokemon/:poke1/:poke2', async (req, res) => {
-    const { poke1, poke2 } = req.params;
-    const resultsPoke = await powerfulPoke(poke1, poke2);
-    resultsPoke.status === 404
-      ? res.status(404).json(resultsPoke)
-      : res.status(200).json(resultsPoke);
+  router.get('/pokemon', (req, res) => {
+    res.json(powerfulPoke(app.get('sendPoke')));
   });
 
   // Calculadora
