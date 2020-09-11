@@ -1,0 +1,4 @@
+{
+  "URL_API_POKEMON": "https://pokeapi.co/api/v2/pokemon/",
+  "URL_API_CALCULADORA": "http://localhost:3000/api/calculadora/pokemon"
+}

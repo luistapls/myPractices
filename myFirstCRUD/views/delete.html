@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete</title>
+  </head>
+  <body>
+    <form action="/delete-successful" method="POST">
+      <div>
+        <label for="">Tipo de Identificación</label>
+        <select name="tipoIdentificacionFind" id="">
+          <option value="nit">nit</option>
+          <option value="cc">cc</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Numero de Identificación</label>
+        <input type="number" name="numeroIdentificacionFind" />
+      </div>
+
+      <div>
+        <button type="submit">Aceptar</button>
+      </div>
+    </form>
+  </body>
+</html>

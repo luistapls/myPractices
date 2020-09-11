@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Read</title>
+  </head>
+  <body>
+    <form action="/read-successful" method="POST">
+      <div>
+        <label>
+          <input type="radio" name="readData" value="all" />
+          Leer los datos de todos los trabajadores.
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <input type="radio" name="readData" value="one" />
+          Leer los datos de un trabajador.
+        </label>
+      </div>
+
+      <div>
+        <label for="">Tipo de Identificación</label>
+        <select name="tipoIdentificacion" id="">
+          <option value="nit">nit</option>
+          <option value="cc">cc</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Numero de Identificación</label>
+        <input type="number" name="numeroIdentificacion" />
+      </div>
+
+      <div>
+        <button type="submit">Aceptar</button>
+      </div>
+    </form>
+  </body>
+</html>

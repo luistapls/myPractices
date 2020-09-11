@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create</title>
+  </head>
+  <body>
+    <form action="/create-successful" method="POST">
+      <div>
+        <label for="">Nombres</label>
+        <input type="text" name="nombres" />
+      </div>
+
+      <div>
+        <label for="">Apellidos</label>
+        <input type="text" name="apellidos" />
+      </div>
+
+      <div>
+        <label for="">Tipo de Identificación</label>
+        <select name="tipoIdentificacion" id="">
+          <option value="nit">nit</option>
+          <option value="cc">cc</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Numero de Identificación</label>
+        <input type="number" name="numeroIdentificacion" />
+      </div>
+
+      <div>
+        <label for="">Números Telefónicos</label>
+        <input type="number" name="telefono1" />
+        <input type="number" name="telefono2" />
+        <input type="number" name="telefono3" />
+      </div>
+
+      <div>
+        <label for="">Correo electrónico</label>
+        <input type="email" name="correoElectronico" />
+      </div>
+
+      <div>
+        <label for="">Fecha de ingreso</label>
+        <input type="date" name="fechaIngreso" />
+      </div>
+
+      <div>
+        <label for="">Salario mensual</label>
+        <input type="number" name="salarioMensual" />
+      </div>
+
+      <div>
+        <button type="submit">Aceptar</button>
+        <button type="reset">Cancelar</button>
+      </div>
+    </form>
+  </body>
+</html>

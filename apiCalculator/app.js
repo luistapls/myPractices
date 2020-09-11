@@ -5,7 +5,8 @@ const cors = require('cors');
 const calc = require('./routes/utils/calculadora');
 const poke = require('./routes/Pokemon/index');
 const { notFoundHandlrer } = require('./utils/middleware/errorHandlers');
-
+/* const prueba1 = require('./url.json');
+console.log(prueba1); */
 const app = express();
 
 // body parser

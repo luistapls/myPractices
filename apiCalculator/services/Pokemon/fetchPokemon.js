@@ -1,7 +1,8 @@
 /* eslint-disable */
 const fetch = require('node-fetch');
+const ALL_URL = require('../../url.json');
 
-const URL_API = 'https://pokeapi.co/api/v2/pokemon/';
+const URL_API = ALL_URL.URL_API_POKEMON;
 
 const fetchPoke = async (pokemon1, pokemon2) => {
   try {
