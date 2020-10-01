@@ -1,0 +1,6 @@
+{
+  "URL_API_WEATHER_CURRENT": "http://api.weatherapi.com/v1/current.json",
+  "WEATHER_KEY": process.env.WATHER_API,
+  "URL_API_DISTANCE_MATRIX": "https://maps.googleapis.com/maps/api/distancematrix/json?",
+  "DISTANCE_MATRIX_KEY": process.env.GOOGLE_API
+}
