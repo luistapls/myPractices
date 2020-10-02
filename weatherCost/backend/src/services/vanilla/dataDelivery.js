@@ -7,6 +7,7 @@ const dataDelivery = async (req) => {
     const isBeatifulDay = await beatifulDay(req);
 
     const { coord1, coord2 } = req.params;
+
     const latLon1 = convertCoordinate(coord1);
     const latLon2 = convertCoordinate(coord2);
 
