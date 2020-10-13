@@ -9,6 +9,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.use(require('./routes/api'));
 app.use(require('./routes/deliveryGoogle'));
+app.use(require('./routes/googleMaps'));
 
 app.listen(app.get('port'), () => {
   console.log('Server on port: ', app.get('port'));

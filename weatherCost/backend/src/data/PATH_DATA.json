@@ -1,0 +1,14 @@
+{
+  "International": {
+    "cost": 1
+  },
+  "Venezuela": {
+    "cost": 3,
+    "Carabobo": {
+      "cost": 2,
+      "Valencia 2011": {
+        "cost": 12
+      }
+    }
+  }
+}

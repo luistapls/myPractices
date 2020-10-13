@@ -1,11 +1,11 @@
 const degreesToRadians = (degrees) => (degrees * Math.PI) / 180;
 
 const distanceBetweenKm = (coord1, coord2) => {
-  const lat1 = coord1.latitute;
-  const lon1 = coord1.longitute;
+  const lat1 = coord1.lat;
+  const lon1 = coord1.lng;
 
-  const lat2 = coord2.latitute;
-  const lon2 = coord2.longitute;
+  const lat2 = coord2.lat;
+  const lon2 = coord2.lng;
 
   const EARTH_RADIUS_KM = 6371;
 
